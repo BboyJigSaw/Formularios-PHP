@@ -1,0 +1,59 @@
+*{
+    background-color: #FFFF;
+    padding: 0;
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+form{
+    padding: 50px 20px;
+    margin: calc(25% + 100px);
+    text-align: center;
+    background-color:#ededed;
+    margin-top: 70px;
+    padding-top: 28px;
+    
+    
+}
+
+h1{
+    background-color:transparent;
+    color: #444;
+    padding: 12px;
+    font-size: 50px;
+   
+}
+
+input{
+    width: calc(100% - 20px);
+    padding: 9px;
+    margin: auto;
+    margin-top: 12px;
+    font-size: 16px;
+}
+
+input[type='submit']{
+    background-color: #48e;
+    color: #FFFF;
+    width: calc(80% - 20px);
+    margin: 0 10px;
+    margin-top: 22px;
+    border: none;
+}
+
+.ok{
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    background-color: #1a8;
+    color: #FFFF;
+}
+
+.bad{
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    background-color: #a22;
+    color: #FFFF;
+}
